@@ -4,6 +4,10 @@
 
 Create a PowerShell script for monitoring file integrity. The script will calculate and store file hashes in a baseline file. It will then continuously monitor the specified folder for changes, deletions, or additions and notify the user accordingly.
 
+### Flowchart
+
+![Image](https://i.imgur.com/tbi9sLJ.png)
+
 ## Requirements
 
 1. **Prerequisites:**
@@ -44,12 +48,10 @@ Enter 'b' to begin monitoring the files.
 ### Step 6: Observe Monitoring
 If you chose option 'b', the script will enter an infinite loop, checking for changes every second. Observe the notifications for new file creations, changes, or deletions.
 
-### Step 7: Customize and Expand (Optional)
-Feel free to customize the script based on your needs. You can add error handling, expand notification methods, or modify the monitored folder.
+| User Input Console | File Creation Notification | File Modification Alert |
+| --- | --- | --- |
+| ![Image](https://i.imgur.com/qUyoGbd.png) | ![Image](https://i.imgur.com/pAO7ZdT.png) | ![Image](https://i.imgur.com/LKZRseY.png) |
 
-### Flowchart
-
-![img]https://i.imgur.com/tbi9sLJ.png
 
 ### Conclusion
 
